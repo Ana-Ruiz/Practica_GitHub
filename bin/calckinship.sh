@@ -4,5 +4,6 @@
 
 #!/bin/bash
 #esta linea de comando usa bcftools para generar flags de un archivo vcf
-#duplico
-bcftools +fill-tags ../data/pre-input.vcf.gz >> ../data/input.vcf
+
+# este es un nuevo comentario
+bcftools +fill-tags ../data/pre-input.vcf.gz >> ../data/input-2.vcf
